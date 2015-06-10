@@ -9,6 +9,8 @@
 
 ##### Ports tested are as per SANS Egress Filtering FAQ plus a couple RawInfoSec feel should be added.  We have not yet implemented UDP tests.
      SANS PDF - https://www.sans.org/reading-room/whitepapers/firewalls/egress-filtering-faq-1059?show=egress-filtering-faq-1059&cat=firewalls
+     
+![alt](https://raw.githubusercontent.com/RawInfoSec/RiS-Egress-Test-Tool/master/screenshot.png)
 
 Copyright (C) 2015 RawInfoSec.com
 
