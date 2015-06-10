@@ -1,21 +1,19 @@
 # RiS-Egress-Test.pl
+20150125 kevin@rawinfosec.com
 
-### 20150209 kevin@rawinfosec.com
+#### Client side tool to determine if the currently connected network is blocking a set of ports commonly used to exploit network devices from inside the firewall.
 
-## Client side tool to determine if the currently connected network is blocking a set of ports commonly used to exploit network devices from inside the firewall.
+##### This tool connects to egress.rawinfosec.com. You can change this in the source to a server of your choice. We have configured and made available this server for the time being but do not warranty availability in the future.
 
-### This tool connects to egress.rawinfosec.com. You can change this in the source to a server of your choice. We have configured and made available this server
-     for the time being but do not warranty availability in the future.
+#### This tool does not send any of your data to our server. It simply attempts to create the initial TCP connections.
 
-### This tool does not send any of your data to our server. It simply attempts to create the initial TCP connections.
-
-### Ports tested are as per SANS Egress Filtering FAQ plus a couple RawInfoSec feel should be added.  We have not yet implemented UDP tests.
+##### Ports tested are as per SANS Egress Filtering FAQ plus a couple RawInfoSec feel should be added.  We have not yet implemented UDP tests.
      SANS PDF - https://www.sans.org/reading-room/whitepapers/firewalls/egress-filtering-faq-1059?show=egress-filtering-faq-1059&cat=firewalls
 
-### Copyright (C) 2015 RawInfoSec.com
+Copyright (C) 2015 RawInfoSec.com
 
-### Author: Kevin Creechan     @RawInfoSec     kevin@rawinfosec.com
-#### Version: 1.0 (20150125-1)
+Author: Kevin Creechan     @RawInfoSec     kevin@rawinfosec.com
+Version: 1.0 (20150125-1)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
